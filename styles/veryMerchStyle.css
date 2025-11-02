@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background: url("../images/grunge4smol.jpg") no-repeat center center fixed;
+    background-color: black;
+    background-size: cover;
+}
+
+.head {
+    background-color: black;
+    vertical-align: top;
+    height: 100px;
+}
+
+.head {
+    background-color: black;
+    text-align: end;
+    height: 100px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.optionCard {
+    background-color: maroon;
+    color: white;
+    border-style:ridge;
+    display: inline;
+    text-align: end;
+    vertical-align: top;
+    font-size: 30px;
+    margin-right: 10px;
+    transition: padding-top 0.5s, opacity 0.2s;
+}
+.optionCard:hover {
+    padding-top: 25px;
+}
+.optionCard:active {
+    opacity: 0.5;
+    padding-top: 20px;
+}
+
+.title {
+    font-size: 50px;
+    margin-left: 40px;
+    color: white;
+}
+
+.merch {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 25px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.product {
+    max-width: 400px;
+    display: grid;
+    background: maroon;
+    padding: 30px;
+    border-style: solid;
+    border-color: brown;
+}
+
+.image {
+    width: 400px;
+}
+
+.info {
+    grid-row-start: 2;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+    
+}
+
+.proName {
+    display: inline;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 25px;
+}
+
+/* select {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-size: 25px;
+} */
+
+/* option {
+    background-color: black;
+    color: white;
+} */
+
+select {
+    border: none;
+    appearance: none;
+    padding: 10px;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-size: 15px;
+    margin-right: 0px;
+}
+
+i {
+    background-color: rgb(55, 55, 55);
+    padding: 10px;
+    margin-left: 0px;
+}
+
+.buy {
+    font-size: 40px;
+    border-style: none;
+    background-color: white;
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: margin-left 0.3s, margin-right 0.3s, opacity 0.3s;
+}
+.buy:hover {
+    opacity: 0.8;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+.buy:active {
+    opacity: 0.5;
+}

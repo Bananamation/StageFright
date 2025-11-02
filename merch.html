@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/veryMerchStyle.css">
+    <script src="scripts/merchScript.js"></script>
+
+    <title>Store</title>
+</head>
+<body>
+    <div class="head">
+        <a href="index.html"><button class="optionCard">Home</button></a>
+        <span>
+            <a href="about.html" target="_self"><button class="optionCard">About</button></a>
+            <a href="merch.html"><button class="optionCard">Merch</button></a>
+            <a href="tourDates.html"><button class="optionCard">Tour Dates</button></a>
+            <a href="contactUs.html"><button class="optionCard">Contact Us</button></a>
+        </span>
+    </div>
+    <h1 class="title">Buy our Stuff</h1>
+    <div class="merch">
+
+        <div class="product">
+            <img src="images/merch/Shirt.png" alt="" width="500px" class="image">
+            <div class="info">
+                <h1 class="proName">Shirt</h1>
+                <h1 class="price"><s>$49.99</s> $33.33</h1>
+            </div>
+            <button class="buy">BUY</button>
+        </div>
+        <div class="product">
+            <img src="images/merch/SnapHat.png" alt="" width="500px" class="image">
+            <div class="info">
+                <h1 class="proName">Snapback Hat</h1>
+                <h1 class="price">$99.99</h1>
+            </div>
+            <button class="buy">BUY</button>
+        </div>
+        <div class="product">
+            <img src="images/merch/hoodies/HoodieMeatBone.png" alt="" width="500px" class="image" id="albumHoodie">
+            <div class="info">
+                <h1 class="proName" id="hoodie">Album Hoodie</h1>
+                <h1 class="price">$49.99</h1>
+
+                <select name="list" id="hoodieList" onchange="determineHoodie()">
+                    <option value="HoodieMeatBone.png">Meat On The Bone</option>
+                    <option value="HoodieOldPatchey.png">Old Patchey</option>
+                    <option value="HoodieCannibal.png">Cannibal Cafe</option>
+                    <option value="HoodieDollfaceDay.png">Dollface Day</option>
+                </select>
+                <i>▼</i>
+            </div>
+            <button class="buy">BUY</button>
+        </div>
+        <div class="product">
+            <img src="images/merch/shirts/ShirtMeatOnTheBone.png" alt="" width="500px" class="image" id="albumShirt">
+            <div class="info">
+                <h1 class="proName">Album Shirt</h1>
+                <h1 class="price">$39.99</h1>
+
+                <select name="list" id="shirtList" onchange="determineShirt()">
+                    <option value="ShirtMeatOnTheBone.png">Meat On The Bone</option>
+                    <option value="ShirtOldPatchey.png">Old Patchey</option>
+                    <option value="ShirtCannibalCafe.png">Cannibal Cafe</option>
+                    <option value="ShirtDollfaceDay.png">Dollface Day</option>
+                </select>
+                <i>▼</i>
+            </div>
+            <button class="buy">BUY</button>
+        </div>
+    </div>
+</body>
+</html>
